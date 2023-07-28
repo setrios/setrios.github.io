@@ -1,0 +1,350 @@
+html,
+body{
+	margin: 0;
+	padding:0;
+	background-color: #000000;
+	/*font-family: calibri ;*/
+	font-family: Calibri, sans-serif;
+}
+
+
+.cont{
+	width: 1400px;
+	height: auto;
+	min-width: 300px;
+	margin: 0 auto;
+}
+
+
+.crd{
+	margin: 10px 0;
+	size: 50px;
+	color: #D1D3D4;
+}
+
+
+header{
+	width: auto;
+	background: #1A2026;
+	border: 1px solid #068FFF;
+	border-width: 0 1px 1px 1px;
+	border-radius: 0 0 10px 10px;
+}
+
+
+header .logo{
+	margin: auto 90px;
+	height: 90px;
+}
+
+nav{
+	width: auto;
+	height: auto;
+	display: flex;
+}
+
+.menu:hover{
+	background: #E5F0FF /*url(menu.svg)  no-repeat 50% 0 */ ;
+	transition: 0.3s;
+}
+
+.menu {
+	margin: 0;
+	padding: 45px;
+	width: 450px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	background: #fff;
+	color: #000;
+	transition: 0.1s;
+	border-radius: 10px;
+}
+
+.list {
+	margin: 20px 0 20px 0 ;
+	padding: 2vw;
+	background: #1A2026;
+	height: 100vh;
+/*	border: 1px solid #4E4FEB;*/
+	border-radius: 10px;
+}
+
+h1{
+	margin: 0;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+}
+
+.row{
+	display: flex;
+	padding: 0;
+	margin: auto;
+}
+
+.thr{
+	display: flex;
+	padding: 0;
+	margin: auto;
+}
+
+.offers{
+	margin: 0 0 20px 0;
+	border: 1px dashed #068FFF;
+	border-radius: 10px;
+}
+
+.inf{
+	margin: 0;
+	border: 1px dashed #4cc9f0;
+	border-radius: 10px;
+}
+
+.offers .und{
+	margin-bottom: 3px;
+	color: #068FFF;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Comfortaa', cursive;
+}
+
+.inf .und{
+	margin-bottom: 3px;
+	color: #4cc9f0;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Comfortaa', cursive;
+}
+
+.all a{
+	display: block;
+	margin: 15px;
+	padding: 0;
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+	width: auto;
+	height: auto;
+	min-height: 400px;
+	width: 290px;
+	border: 1px solid #F1F2F2;
+	border-radius: 10px;
+	transition: 0.1s;
+}
+
+.all a:hover{
+	background: #E5F0FF;
+	transition: 0.3s;
+}
+
+.all a img{
+	width: 100%;
+	display: block;
+	margin: 0 ;
+	
+	border-radius: 10px 10px 0 0;
+	transition: 0.1s;
+}
+
+.all a div{
+	display: block;
+	margin: 20px;
+}
+
+.infoot{
+	margin: 0;
+}
+
+.desc{
+	color: gray;
+	margin: 5px 0;
+}
+
+footer{
+	width: auto;
+	height: 100px;
+	padding: 20px 40px;
+	background: #1A2026;
+	border: solid #068FFF;
+	border-width: 1px 1px 0 1px ;
+	border-radius: 10px 10px 0 0;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+	.cont{
+		width: 100%;
+	}
+
+	.menu {
+/*	margin: 0;
+	padding: 45px;*/
+	width: 38vw;
+/*	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	background: #fff;
+	color: #000;
+	transition: 0.1s;
+	border-radius: 10px;*/
+}
+
+.all a{
+/*	display: block;
+	margin: 15px;
+	padding: 0;
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+	width: auto;
+*/	height: auto;
+	width: 29%;
+	min-width: 100px;
+/*	border: 1px solid #F1F2F2;
+	border-radius: 10px;
+	transition: 0.1s;*/
+}
+
+	.list {
+		height:100%;
+	}
+
+	.row{
+		padding: 0;
+		margin: auto;
+	}
+
+	.thr{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0;
+		margin: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+	header .logo{
+		margin: auto;
+		height: 140px;
+
+	}
+
+	header{
+		height: 200px;
+		border-width: 0 3px 3px 3px;
+	}
+
+	nav{
+		widows: 100%;
+		height: 100%;
+	}
+
+	.menu{
+		padding: 78px;
+		font-size: 36px;
+	}
+
+	.all a{
+	/*	display: block;
+		margin: 15px;
+		padding: 0;
+		text-decoration: none;
+		color: #000;
+		background: #fff;
+		width: auto;
+	*/	height: auto;
+		width: 45%;
+		min-width: 100px;
+	/*	border: 1px solid #F1F2F2;
+		border-radius: 10px;
+		transition: 0.1s;*/
+	}
+
+	h2{
+		font-size: 36px;
+	}
+
+	.all p{
+		font-size: 21px;
+	}
+
+	.offers{
+		border-width: 3px;
+	}
+
+	.inf{
+		border-width: 3px;
+	}
+
+	.offers .und{
+		font-size: 30px;
+
+	}
+
+	.inf .und{
+		font-size: 30px;
+	}
+
+	.infoot{
+		font-size: 25px;
+	}
+
+	.footer{
+		border-width: 3px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+	header .logo{
+		margin: auto;
+	}
+
+	.all a{
+/*	display: block;
+	margin: 15px;
+	padding: 0;
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+	width: auto;
+*/	height: auto;
+	width: auto;
+	min-width: 250px;
+/*	border: 1px solid #F1F2F2;
+	border-radius: 10px;
+	transition: 0.1s;*/
+	}
+
+	.all a img{
+		width: 100%;
+		display: block;
+		margin: 0 ;
+		
+		border-radius: 10px 10px 0 0;
+		transition: 0.1s;
+	}
+
+	.all a div{
+		display: block;
+		margin: 20px;
+	}
+
+}
